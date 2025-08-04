@@ -29,11 +29,11 @@ elif imc <=34.9:
 elif imc <=39.9:
     print(nome,"tem IMC igual a",((imc)),"classificado como Obesidade grau 2")
 
-elif imc <=40:
+elif imc <=49:
     print(nome,"tem IMC igual a",((imc)),"classificado como Obesidade grau 3")
 
 else:
-    print(nome, "Seloko, num compensa.")
+    print(nome, (imc),"Seloko, num compensa.")
 
 #if, elif e else, é a criação de uma condição.
 
